@@ -1,0 +1,1 @@
+<div align="center" id="pageFooter">Copyright &copy 2012-2013 Su Feng. All Rights Reserved.</div>

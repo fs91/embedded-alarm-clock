@@ -1,0 +1,18 @@
+Directory Information
+---------------------
+pi - pi Source Code
+web - Web Interface Source Code
+---------------------------
+PI IMPLEMENTATION DETAILS
+
+pi_reg takes two message types
+MY_WEEK -> SENDS THE ENTIRE SCHEDULE IN THE W+ FORMAT
+W+myclass1|... -> ACCEPTS THE ENTIRE SCHEDULE
+	       So when you add or delete send the entire schedule back with the change being made
+	       This makes it easier and quicker on the pi
+	       
+pi_reg now when accpets the entire message back saves two files
+schedule.txt -> saves schedule in easy to msg format
+cron.alarm -> crontab file for schedulin
+
+Motion detection is done and working in python and called when schedule with cronjobs. 
